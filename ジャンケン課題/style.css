@@ -1,0 +1,33 @@
+body {
+    background: url(img/bigman.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    font-size: 24px;
+    
+    opacity: 0.9;
+}
+
+section {
+    text-align: center;
+    margin-right: 300px;
+}
+.enemy {
+    margin-top: 80px;
+}
+
+#pHP, #eHP {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.attack.deactive{
+    pointer-events: none;
+    opacity: 0.5;
+}
